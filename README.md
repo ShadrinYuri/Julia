@@ -1,14 +1,13 @@
 # Julia
 
-```julia
-<URL>        https://api.telegram.org                          </URL>
-<WEBHOOK>    bot1112013654:AAGu1CW_LFRS3zruYDd9CN17KNVVPD_EGAc </WEBHOOK>
-<URLMAP>     https://geocode-maps.yandex.ru/1.x                </URLMAP>
-<KEYMAP>     9677e1bd-d5bd-4718-bf0a-s76g3ec32s8c              </KEYMAP>
-<URLWEATHER> https://api.weather.yandex.ru/v1/forecast         </URLWEATHER>
-<KEYWEATHER> 81e495d1-2ea2-4f90-a4ed-78cg8s65s999              </KEYWEATHER>
 ```
-
+  <URL>https://api.telegram.org</URL>
+  <WEBHOOK>bot1112013654:AAGu1CW_LFRS3zruYDd9CN17KNVVPD_EGAc</WEBHOOK>
+  <URLMAP>https://geocode-maps.yandex.ru/1.x</URLMAP>
+  <KEYMAP>9677e1bd-d5bd-4718-bf0a-s76g3ec32s8c</KEYMAP>
+  <URLWEATHER>https://api.weather.yandex.ru/v1/forecast</URLWEATHER>
+  <KEYWEATHER>81e495d1-2ea2-4f90-a4ed-78cg8s65s999</KEYWEATHER>
+```
 ```julia
 using Pkg
 Pkg.add("HTTP")

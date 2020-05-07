@@ -13,7 +13,7 @@ using Pkg
 Pkg.add("HTTP")
 ``` 
 
-```XML
+```julia
 <ТИП ЗАПРОСА> <ЗАПРАШИВАЕМЫЙ ДОКУМЕНТ> <ВЕРСИЯ HTTP>
 ```
 
@@ -24,7 +24,7 @@ query = Dict("apikey"    => key_map,
 response = HTTP.get(url_map, query=query)
 ```
 
-```XML
+```julia
 GET https://api.weather.yandex.ru/v1/forecast?
  lat=<широта>
  & lon=<долгота>

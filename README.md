@@ -24,7 +24,7 @@ query = Dict("apikey"    => key_map,
 response = HTTP.get(url_map, query=query)
 ```
 
-```julia
+```XML
 GET https://api.weather.yandex.ru/v1/forecast?
  lat=<широта>
  & lon=<долгота>
